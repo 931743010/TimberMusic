@@ -50,7 +50,6 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.ItemHolder> 
         this.arraylist = arraylist;
         this.mContext = context;
         this.isGrid = PreferencesUtility.getInstance(mContext).isAlbumsInGrid();
-
     }
 
     public static int getOpaqueColor(@ColorInt int paramInt) {
@@ -102,7 +101,6 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.ItemHolder> 
                                 }
                             });
                         }
-
                     }
                 });
 
