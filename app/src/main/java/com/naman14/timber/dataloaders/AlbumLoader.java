@@ -26,7 +26,6 @@ import java.util.List;
 
 public class AlbumLoader {
 
-
     public static Album getAlbum(Cursor cursor) {
         Album album = new Album();
         if (cursor != null) {
@@ -37,7 +36,6 @@ public class AlbumLoader {
             cursor.close();
         return album;
     }
-
 
     public static List<Album> getAlbumsForCursor(Cursor cursor) {
         ArrayList arrayList = new ArrayList();
