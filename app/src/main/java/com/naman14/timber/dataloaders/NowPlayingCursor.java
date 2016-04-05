@@ -28,7 +28,6 @@ import java.util.Arrays;
 
 import static com.naman14.timber.MusicPlayer.mService;
 
-
 public class NowPlayingCursor extends AbstractCursor {
 
     private static final String[] PROJECTION = new String[] {
