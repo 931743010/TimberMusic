@@ -37,6 +37,9 @@ import java.util.ArrayList;
 
 import static com.naman14.timber.MusicPlayer.mService;
 
+/**
+ * Activity的封装类
+ */
 public class BaseActivity extends AppCompatActivity implements ServiceConnection,MusicStateListener {
 
     private MusicPlayer.ServiceToken mToken;
